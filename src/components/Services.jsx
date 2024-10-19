@@ -1,7 +1,14 @@
 import { FaReact } from 'react-icons/fa';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiExpress, SiMongodb } from 'react-icons/si';
-
+import jwtLog from '../assets/jwt.svg'
+import firebaselogo from '../assets/firebase.png'
+import reactLogo from '../assets/react.png'
+import jsLogo from '../assets/javascript.png'
+import vercelLogo from '../assets/vercel.png'
+import figmaLogo from '../assets/figma.jpg'
+import xdLogo from '../assets/xd.png'
+import githubLogo from '../assets/github.jfif'
 const Services = () => {
     return (
         <div id="service" className='mx-7  bg-blend-lighten bg-[#210e60] px-8 sm:px-12 md:px-16 lg:px-24 xl:px-[128px] py-[64px] rounded-3xl'>
@@ -68,7 +75,7 @@ const Services = () => {
                 </div>
                 <div className="bg-transparent space-y-4 text-[#d5daf0] text-center card items-center border-2 border-[#301e68] p-7 hover:scale-105 transform transition-transform duration-1000">
                     <div className="">
-                        <img src='/src/assets/jwt.svg' className="rounded-full w-[140px] h-[140px] text-[#38bdf8] bg-[#301e68] p-8" />
+                        <img src={jwtLog} className="rounded-full w-[140px] h-[140px] text-[#38bdf8] bg-[#301e68] p-8" />
                         {/* <RiTailwindCssFill className="rounded-full w-[140px] h-[140px] text-[#38bdf8] bg-[#301e68] p-8" /> */}
                     </div>
                     <div className="flex flex-col items-center text-center">
@@ -82,31 +89,31 @@ const Services = () => {
 
             <div className='text-center flex flex-wrap gap-4 justify-center align-middle border-2 border-[#301e68] p-7'>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/javascript.png' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={jsLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>Demo Install </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/figma.jpg' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={figmaLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>Figma Design </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/xd.png' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={xdLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>XD Design </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/github.jfif' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={githubLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>Github Repository </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/firebase.png' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={firebaselogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>Firebase Deployment </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/vercel.png' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={vercelLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>Vercel Deployment </h2>
                 </div>
                 <div className="flex flex-col items-center">
-                    <img src='/src/assets/react.png' className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
+                    <img src={reactLogo} className="rounded-full w-[40px] h-[40px] text-[#38bdf8] bg-[#301e68] p-2" />
                     <h2 className='text-[#d5daf0] capitalize text-lg font-bold'>React Ready </h2>
                 </div>
             </div>
