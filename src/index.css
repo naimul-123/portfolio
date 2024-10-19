@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  border-bottom: #94f1ff 2px solid;
+}
