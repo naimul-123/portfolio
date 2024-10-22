@@ -30,7 +30,7 @@ const Portfolio = () => {
                     </div>
                     <div className="card-actions">
                         <a href="https://assignment-9-2ac58.web.app/" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Live Link </a>
-                        <a href="https://github.com/programming-hero-web-course-4/b9a9-real-estate-naimul-123.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Link </a>
+                        <a href="https://github.com/naimul-123/real-estate-management-system.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Link </a>
                     </div>
                 </div>
                 <div className="bg-transparent space-y-4 text-[#d5daf0]  card justify-between border-2 border-[#301e68] p-7">
@@ -73,9 +73,9 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="card-actions">
-                        <a href="https://assignment-10-a9d06.web.app" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Live Link </a>
-                        <a href="https://github.com/naimul-123/my-art-and-craft-client.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Client Link</a>
-                        <a href="https://github.com/naimul-123/my-arts-and-craft-server.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Server Link</a>
+                        <a href="https://assignment-11-f904d.web.app" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Live Link </a>
+                        <a href="https://github.com/naimul-123/WordVoyage-client.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Client Link</a>
+                        <a href="https://github.com/naimul-123/WordVoyage-server.git" target='_blank' className="btn btn-outline text-[#94f1ff] rounded-full hover:bg-[#94f1ff] hover:text-[#070721] transition-colors duration-[1000ms]">Github Server Link</a>
                     </div>
                 </div>
                 <div className="bg-transparent space-y-4 text-[#d5daf0]  card justify-between border-2 border-[#301e68] p-7">

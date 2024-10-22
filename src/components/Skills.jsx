@@ -41,7 +41,7 @@ const Skills = () => {
                         <div className='flex flex-col max-w-xs'>
                             <div className='flex items-center justify-between'>
                                 <p className='text-[#d5daf0]' >2023-2024</p>
-                                <p className='text-[#92f2ff]' >----</p>
+                                <p className='text-[#92f2ff]' >Successfully Compleated</p>
                             </div>
                             <h3 className='text-[#d5daf0] capitalize text-2xl font-bold'>Frontend Development Course By Programming Hero</h3>
                         </div>
